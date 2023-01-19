@@ -7,7 +7,7 @@ class ScrollScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-      decoration: decoracion(),
+        decoration: decoracion(),
         child: PageView(
           physics: const BouncingScrollPhysics(),
           scrollDirection: Axis.vertical,
@@ -21,6 +21,7 @@ class ScrollScreen extends StatelessWidget {
     return const BoxDecoration(
 
         gradient: LinearGradient(
+          
           stops: [0.5, 0.5],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
