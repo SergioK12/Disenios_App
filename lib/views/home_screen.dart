@@ -13,7 +13,8 @@ class HomeScreen extends StatelessWidget {
         _HomeBody(),
         PageTittle(),
       ],
-    ));
+    ),
+    bottomNavigationBar: const CustomNavigation(),);
   }
 }
 
