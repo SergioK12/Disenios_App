@@ -8,10 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
       statusBarColor: Colors.grey
     ));
     return  MaterialApp(
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       initialRoute: 'Home',

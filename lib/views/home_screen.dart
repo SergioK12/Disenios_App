@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       children: const [
         BackgroundW(),
         _HomeBody(),
-        PageTittle(),
+        
       ],
     ),
     bottomNavigationBar: const CustomNavigation(),);
@@ -28,6 +28,8 @@ class _HomeBody extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: const [
+          PageTittle(),
+          CardTable(),
         ],
       )
     );
